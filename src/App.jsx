@@ -1,12 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { 
-  Scissors, Calendar, Clock, Sparkles, Play, Trash2, Plus, Check, Globe, 
-  Smartphone, Tablet, Monitor, User, Coffee, MapPin, Phone, ShieldCheck, 
-  X, ChevronRight, ChevronLeft, Settings, Image as ImageIcon, Lock, Upload, 
-  Star, Eye, Heart, MessageSquare, ArrowRight, CheckCircle2, RefreshCw, Feather, Smile, Gem
+  Scissors, Calendar, Clock, Sparkles, Play, Trash2, Plus, Check, Coffee, MapPin,  ShieldCheck, 
+  X, ChevronRight, ChevronLeft, Settings,  Lock, Upload, MessageSquare, ArrowRight, CheckCircle2, RefreshCw, Feather, Smile, Gem
 } from 'lucide-react';
 import hauteCoiffureImg from './assets/image.jpg';
-import LookbookSection from './components/LookBookCarousel.jsx';
+import LookbookSection from './components/LookbookCarousel.jsx';
 
 const FontLoader = () => (
   <style>{`
